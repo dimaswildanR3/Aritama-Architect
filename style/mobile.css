@@ -159,9 +159,20 @@
     outline-color: #333;
     border: 1px solid #333; }
 
-  #main-footer ul .social-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); } }
+    #main-footer ul .social-footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+  }
+  
+  #main-footer .social-footer a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  #main-footer .social-footer i {
+      color: white;
+  }}
 @media (max-height: 678px) {
   #showcase .show-content {
     padding-top: 4rem; }
