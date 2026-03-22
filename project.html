@@ -19,7 +19,7 @@
    ===================== */
 
 #project-a {
-    background: #f5f5f5;
+    background: #f4f4f4;
     padding: 60px 0;
 }
 
@@ -111,6 +111,45 @@
     }
 }
 
+
+/* =====================
+   FLOOR PLAN SECTION (New)
+   ===================== */
+
+   #project-b {
+    background: #ffffff; /* Warna background beda dikit biar ada pemisah */
+    padding: 40px 0 80px 0;
+}
+
+.floor-plan-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Jarak antar gambar denah */
+}
+
+.floor-plan-item {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.floor-plan-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.floor-plan-title {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
 </style>
 </head>
 
@@ -122,11 +161,11 @@
     <nav id="navbar">
         <h3>Aritama Architect</h3>
         <ul>
-            <li><a href="/">Beranda</a></li>
-            <li><a href="project">Proyek</a></li>
-            <li><a href="about">Tentang Kami</a></li>
-            <li><a href="blog">Artikel</a></li>
-            <li><a href="contact">Kontak</a></li>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="project.html">Proyek</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="blog.html">Artikel</a></li>
+            <li><a href="contact.html">Kontak</a></li>
         </ul>
     </nav>
 </header>
@@ -180,7 +219,25 @@
 
     </div>
 </section>
+<section id="project-b">
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 30px;">Detail Denah Bangunan</h2>
+        
+        <div class="floor-plan-grid">
+            
+            <div class="floor-plan-item">
+                <img src="photos/denah-1.jpg" alt="Denah Bangunan Lantai 1">
+                <div class="floor-plan-title">Denah Bangunan Lt. 1</div>
+            </div>
 
+            <div class="floor-plan-item">
+                <img src="photos/denah-2.jpg" alt="Denah Bangunan Lantai 2">
+                <div class="floor-plan-title">Denah Bangunan Lt. 2</div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 <footer id="main-footer">
