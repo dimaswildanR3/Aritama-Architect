@@ -161,7 +161,7 @@
     <nav id="navbar">
         <h3>Aritama Architect</h3>
         <ul>
-            <li><a href="/">Beranda</a></li>
+            <li><a href="/index">Beranda</a></li>
             <li><a href="/project">Proyek</a></li>
             <li><a href="/about">Tentang Kami</a></li>
             <li><a href="/blog">Artikel</a></li>
@@ -170,7 +170,34 @@
     </nav>
 </header>
 
-
+<script>
+    // Hanya jalan di local server sederhana
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function(e){
+        const href = this.getAttribute('href');
+  
+        // Jika href tidak mengandung ".html" dan file dengan nama itu ada, tambahkan .html
+        if (!href.endsWith('.html')) {
+          const newHref = href + '.html';
+  
+          // Cek apakah file ada secara relatif (hanya di local)
+          fetch(newHref, {method: 'HEAD'})
+            .then(res => {
+              if (res.ok) {
+                window.location.href = newHref;
+              } else {
+                window.location.href = href;
+              }
+            })
+            .catch(err => {
+              window.location.href = href;
+            });
+  
+          e.preventDefault(); // cegah default
+        }
+      });
+    });
+  </script>
 
 <section id="project-a"style="margin-top: -50px;">
     <div class="container">
