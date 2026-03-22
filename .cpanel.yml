@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/aritamaa/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R * /home/aritamaa/public_html/
