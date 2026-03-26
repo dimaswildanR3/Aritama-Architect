@@ -28,6 +28,14 @@
     @extends('layouts')
 
 @section('content')
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZL5WS2BPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FZL5WS2BPX');
+</script>
     <section id="contact-a">
         <div class="container">
             <h1 class="py-1">Contact Us</h1>

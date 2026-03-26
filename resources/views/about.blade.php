@@ -28,7 +28,14 @@
     @extends('layouts')
 
 @section('content')
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZL5WS2BPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FZL5WS2BPX');
+</script>
     <section id="about-a" class="py-2" style="margin-top: -50px;">
         <h1 class="text-center py-1">Tentang Kami</h1>
         <div class="about-container">

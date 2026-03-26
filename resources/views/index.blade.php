@@ -158,6 +158,14 @@
             font-weight: bold;
         }
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZL5WS2BPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FZL5WS2BPX');
+</script>
     <section id="home-a">
         <h1 class="text-center py-1">Layanan Profesional Desain & Perencanaan Bangunan</h1>
         <p class="text-center py-1 p-smart-phone">

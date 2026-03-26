@@ -30,7 +30,14 @@
  @extends('layouts')
 
 @section('content')
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZL5WS2BPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FZL5WS2BPX');
+</script>
     <section id="blog-a"style="margin-top: -30px;">
 
         <h1 class="text-center py-2">Artikel & Tips Desain</h1>
