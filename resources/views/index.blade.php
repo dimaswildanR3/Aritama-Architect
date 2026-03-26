@@ -60,8 +60,8 @@
                 <li><a href="/">Beranda</a></li>
                 <li><a href="/project">Proyek</a></li>
                 <li><a href="/about">Tentang Kami</a></li>
-                <li><a href="/blog">Artikel</a></li>
-                <li><a href="/contact">Kontak</a></li>
+                <!-- <li><a href="/blog">Artikel</a></li> -->
+                <!-- <li><a href="/contact">Kontak</a></li> -->
                 </ul>
             </nav>
             <div class="show-content">
