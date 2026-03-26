@@ -42,10 +42,10 @@
    PROJECT SECTION
    ===================== */
 
-#project-a {
+/* #project-a {
     background: #f4f4f4;
     padding: 60px 0;
-}
+} */
 
 #project-a .container {
     max-width: 1200px;
@@ -204,8 +204,8 @@
     });
   </script>
 
-<section id="project-a"style="margin-top: -50px;">
-    <div class="container">
+<section id="project-a">
+    <div class="container" >
 
         <h1>Beberapa Proyek Terbaik Kami</h1>
 

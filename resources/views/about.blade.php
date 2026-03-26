@@ -29,7 +29,7 @@
 
 @section('content')
 
-    <section id="about-a" class="py-2">
+    <section id="about-a" class="py-2" style="margin-top: -50px;">
         <h1 class="text-center py-1">Tentang Kami</h1>
         <div class="about-container">
             <div>

@@ -31,7 +31,7 @@
 
 @section('content')
 
-    <section id="blog-a">
+    <section id="blog-a"style="margin-top: -30px;">
 
         <h1 class="text-center py-2">Artikel & Tips Desain</h1>
 

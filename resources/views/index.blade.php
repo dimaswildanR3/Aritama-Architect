@@ -29,20 +29,34 @@
     <!-- Open Graph (SEO sosmed) -->
     <meta property="og:title" content="Aritama Architect | Jasa Desain Rumah Profesional">
     <meta property="og:description" content="Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.">
-    <meta property="og:type" content="website">
+    <!-- <meta property="og:type" content="website"> -->
+    <meta property="og:image" content="https://aritamaarchitect.com/photos/icon1.png">
+<meta property="og:url" content="https://aritamaarchitect.com/">
+<meta property="og:type" content="website">
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aritama Architect | Jasa Desain Rumah Profesional">
+<meta name="twitter:description" content="Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.">
+<meta name="twitter:image" content="https://aritamaarchitect.com/photos/icon1.png">
     <!-- Favicon / logo icon -->
-    <link rel="icon" href="{{ asset('photos/icon1.png') }}" type="image/png">
-
-<link rel="apple-touch-icon" href="{{ asset('photos/icon1.png') }}">
-
-<link rel="shortcut icon" href="{{ asset('photos/icon1.png') }}">
+    <link rel="icon" href="https://aritamaarchitect.com/photos/icon1.png" type="image/png">
+<link rel="apple-touch-icon" href="https://aritamaarchitect.com/photos/icon1.png">
+<link rel="shortcut icon" href="https://aritamaarchitect.com/photos/icon1.png">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/707ca0a07c.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('style/style.css') }}">
     <link rel="stylesheet" href="{{ asset('style/mobile.css') }}">
+    <script type="application/ld+json">      
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aritama Architect",
+  "url": "https://aritamaarchitect.com",
+  "logo": "https://aritamaarchitect.com/photos/icon1.png"
+}
+</script>
 </head>
 
 <body>
