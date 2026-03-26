@@ -222,7 +222,7 @@
                         </ul>
                     </div>
     
-                    <a href="https://wa.me/6281234567890?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Basic.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Basic.%20Boleh%20minta%20info%20lebih%20lanjut?"
                         target="_blank" class="btn-wa">
                         Pesan Sekarang
                     </a>
@@ -251,7 +251,7 @@
                         </ul>
                     </div>
     
-                    <a href="https://wa.me/6281234567890?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
                         target="_blank" class="btn-wa">
                         Pesan Sekarang
                     </a>
@@ -285,7 +285,7 @@
                         </ul>
                     </div>
     
-                    <a href="https://wa.me/6281234567890?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
                         target="_blank" class="btn-wa">
                         Pesan Sekarang
                     </a>
@@ -311,7 +311,7 @@
                         </ul>
                     </div>
     
-                    <a href="https://wa.me/6281234567890?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
                         target="_blank" class="btn-wa">
                         Pesan Sekarang
                     </a>
@@ -341,7 +341,7 @@
                         </ul>
                     </div>
     
-                    <a href="https://wa.me/6281234567890?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
                         target="_blank" class="btn-wa">
                         Pesan Sekarang
                     </a>
