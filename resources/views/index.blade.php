@@ -442,7 +442,7 @@
     <section id="home-d">
         <div class="word-content text-center">
             <h3 class="text-center"> Wujudkan Desain Bangunan Impian Anda Bersama Aritama Architect</h3>
-            <a href="project.html" class="btn btn-dark my-1">Lihat Portfolio</a>
+            <a href="/project" class="btn btn-dark my-1">Lihat Portfolio</a>
         </div>
     </section>
         <footer id="main-footer">
