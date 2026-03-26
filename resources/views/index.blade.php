@@ -1,64 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO -->
-    <title>Jasa Desain Rumah Murah & Profesional | Aritama Architect</title>
+    <!-- SEO Dinamis -->
+    <title>{{ $seo->title ?? 'Aritama Architect' }}</title>
 
-    <meta name="description" content="Aritama Architect adalah jasa desain rumah, arsitek, interior, dan gambar kerja profesional dengan harga terjangkau. Melayani desain rumah minimalis, modern, dan tropis di seluruh Indonesia.">
+    <meta name="description" content="{{ $seo->description ?? 'Aritama Architect adalah jasa desain rumah, arsitek, interior, dan gambar kerja profesional dengan harga terjangkau. Melayani desain rumah minimalis, modern, dan tropis di seluruh Indonesia.' }}">
 
-    <meta name="keywords" content="
-    jasa arsitek murah,
-    jasa desain rumah murah,
-    arsitek rumah minimalis,
-    desain rumah modern,
-    jasa desain arsitektur indonesia,
-    arsitek profesional,
-    jasa gambar kerja,
-    desain rumah 3d,
-    arsitek nganjuk,
-    arsitek jawa timur,
-    arsitek indonesia
-    ">
-
+    <meta name="keywords" content="{{ $seo->keywords ?? 'jasa arsitek murah, jasa desain rumah murah, arsitek rumah minimalis, desain rumah modern, jasa desain arsitektur indonesia, arsitek profesional, jasa gambar kerja, desain rumah 3d, arsitek nganjuk, arsitek jawa timur, arsitek indonesia' }}">
+    
     <meta name="author" content="Aritama Architect">
-
-    <!-- SEO Google -->
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph (SEO sosmed) -->
-    <meta property="og:title" content="Aritama Architect | Jasa Desain Rumah Profesional">
-    <meta property="og:description" content="Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.">
-    <!-- <meta property="og:type" content="website"> -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
+    <meta property="og:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
     <meta property="og:image" content="https://aritamaarchitect.com/photos/icon1.png">
-<meta property="og:url" content="https://aritamaarchitect.com/">
-<meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Aritama Architect | Jasa Desain Rumah Profesional">
-<meta name="twitter:description" content="Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.">
-<meta name="twitter:image" content="https://aritamaarchitect.com/photos/icon1.png">
-    <!-- Favicon / logo icon -->
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
+    <meta name="twitter:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
+    <meta name="twitter:image" content="https://aritamaarchitect.com/photos/icon1.png">
+
+    <!-- Favicon -->
     <link rel="icon" href="https://aritamaarchitect.com/photos/icon1.png" type="image/png">
-<link rel="apple-touch-icon" href="https://aritamaarchitect.com/photos/icon1.png">
-<link rel="shortcut icon" href="https://aritamaarchitect.com/photos/icon1.png">
+    <link rel="apple-touch-icon" href="https://aritamaarchitect.com/photos/icon1.png">
+    <link rel="shortcut icon" href="https://aritamaarchitect.com/photos/icon1.png">
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/707ca0a07c.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('style/style.css') }}">
     <link rel="stylesheet" href="{{ asset('style/mobile.css') }}">
-    <script type="application/ld+json">      
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Aritama Architect",
-  "url": "https://aritamaarchitect.com",
-  "logo": "https://aritamaarchitect.com/photos/icon1.png"
-}
-</script>
-</head>
 
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Aritama Architect",
+      "url": "https://aritamaarchitect.com",
+      "logo": "https://aritamaarchitect.com/photos/icon1.png"
+    }
+    </script>
+</head>
 <body>
     <!-- Showcase -->
     <header id="showcase">
