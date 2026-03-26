@@ -1,12 +1,12 @@
 deployment:
   tasks:
-    # Hapus dulu isi lama (biar clean)
-    - /bin/rm -rf /home/aritamaa/laravel/*
+    # Hapus semua kecuali .env
+    - find /home/aritamaa/laravel/ -mindepth 1 ! -name '.env' -exec rm -rf {} +
 
     # Copy semua project Laravel ke folder laravel
     - /bin/cp -R * /home/aritamaa/laravel
 
-    # Hapus isi public_html lama
+    # Hapus isi public_html lama (opsional)
     # - /bin/rm -rf /home/aritamaa/public_html/*
 
     # Copy hanya isi folder public ke public_html
