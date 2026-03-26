@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    # Salin semua file Laravel ke folder aman di luar public_html
+    - /bin/cp -R * /home/aritamaa/laravel
+    # Salin isi folder public ke public_html agar web bisa diakses
+    - /bin/cp -R public/* /home/aritamaa/public_html/

@@ -1,0 +1,291 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jasa desain rumah, arsitek, dan perencanaan bangunan profesional - Aritama Architect">
+    <meta name="keywords" content="arsitek, desain rumah, jasa arsitek, desain rumah minimalis, aritama architect">
+    <script src="https://kit.fontawesome.com/707ca0a07c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <title>Projects</title>
+<script src="https://kit.fontawesome.com/707ca0a07c.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+<header id="project">
+    <nav id="navbar">
+        <h3>Aritama Architect</h3>
+        <ul>
+            <li><a href="/index">Beranda</a></li>
+            <li><a href="/project">Proyek</a></li>
+            <li><a href="/about">Tentang Kami</a></li>
+            <li><a href="/blog">Artikel</a></li>
+            <li><a href="/contact">Kontak</a></li>
+          </ul>
+    </nav>
+</header> -->
+
+@extends('layouts')
+
+@section('content')
+
+<style>
+
+/* =====================
+   PROJECT SECTION
+   ===================== */
+
+#project-a {
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+#project-a .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+#project-a h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* =====================
+   PASANGAN (pair)
+   Setiap baris = 1 pasang foto
+   Kiri  = JPG  landscape 1754×1240 → ratio 1754/1240 = 1.414
+   Kanan = PNG  portrait  928×1152  → ratio 928/1152  = 0.806
+   ===================== */
+
+.pair {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: flex-start; /* WAJIB: jangan stretch */
+}
+
+/* Lebar proporsional terhadap rasio asli gambar
+   Total ratio unit = 1.414 + 0.806 = 2.220
+   JPG  = 1.414 / 2.220 ≈ 63.7%
+   PNG  = 0.806 / 2.220 ≈ 36.3%
+   Pakai fr supaya flex bisa hitung otomatis */
+
+.pair .col-jpg {
+    flex: 1754 1 0%;   /* flex-grow setara lebar JPG */
+}
+
+.pair .col-png {
+    flex: 928 1 0%;    /* flex-grow setara lebar PNG */
+}
+
+/* Gambar ikut lebar kolom, tinggi auto = rasio terjaga */
+.pair img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+/* Matikan semua efek hover */
+.pair img:hover,
+.pair .col-jpg:hover,
+.pair .col-png:hover {
+    transform: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =====================
+   TABLET  ≤ 768px
+   Tetap dua kolom, hanya gap dikecilkan
+   ===================== */
+
+@media (max-width: 768px) {
+    .pair {
+        gap: 12px;
+    }
+}
+
+
+/* =====================
+   MOBILE  ≤ 540px
+   Susun vertikal, JPG dulu lalu PNG
+   ===================== */
+
+@media (max-width: 540px) {
+    .pair {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .pair .col-jpg,
+    .pair .col-png {
+        flex: none;
+        width: 100%;
+    }
+}
+
+
+/* =====================
+   FLOOR PLAN SECTION (New)
+   ===================== */
+
+   #project-b {
+    background: #ffffff; /* Warna background beda dikit biar ada pemisah */
+    padding: 40px 0 80px 0;
+}
+
+.floor-plan-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Jarak antar gambar denah */
+}
+
+.floor-plan-item {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.floor-plan-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.floor-plan-title {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+</style>
+<script>
+    // Hanya jalan di local server sederhana
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function(e){
+        const href = this.getAttribute('href');
+  
+        // Jika href tidak mengandung ".html" dan file dengan nama itu ada, tambahkan .html
+        if (!href.endsWith('.html')) {
+          const newHref = href + '.html';
+  
+          // Cek apakah file ada secara relatif (hanya di local)
+          fetch(newHref, {method: 'HEAD'})
+            .then(res => {
+              if (res.ok) {
+                window.location.href = newHref;
+              } else {
+                window.location.href = href;
+              }
+            })
+            .catch(err => {
+              window.location.href = href;
+            });
+  
+          e.preventDefault(); // cegah default
+        }
+      });
+    });
+  </script>
+
+<section id="project-a"style="margin-top: -50px;">
+    <div class="container">
+
+        <h1>Beberapa Proyek Terbaik Kami</h1>
+
+        <!-- Pasangan 1 -->
+        <div class="pair">
+            <div class="col-jpg">
+                <img src="photos/1.jpg" alt="Proyek 1">
+            </div>
+            <div class="col-png">
+                <img src="photos/1.png" alt="Proyek 1 Detail">
+            </div>
+        </div>
+
+        <!-- Pasangan 2 -->
+        <div class="pair">
+            <div class="col-jpg">
+                <img src="photos/2.jpg" alt="Proyek 2">
+            </div>
+            <div class="col-png">
+                <img src="photos/2.png" alt="Proyek 2 Detail">
+            </div>
+        </div>
+
+        <!-- Pasangan 3 -->
+        <div class="pair">
+            <div class="col-jpg">
+                <img src="photos/3.jpg" alt="Proyek 3">
+            </div>
+            <div class="col-png">
+                <img src="photos/3.png" alt="Proyek 3 Detail">
+            </div>
+        </div>
+
+        <!-- Pasangan 4 -->
+        <div class="pair">
+            <div class="col-jpg">
+                <img src="photos/4.jpg" alt="Proyek 4">
+            </div>
+            <div class="col-png">
+                <img src="photos/111.png" alt="Proyek 4 Detail">
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="project-b">
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 30px;">Detail Denah Bangunan</h2>
+        
+        <div class="floor-plan-grid">
+            
+            <div class="floor-plan-item">
+                <img src="photos/denah-1.jpg" alt="Denah Bangunan Lantai 1">
+                <div class="floor-plan-title">Denah Bangunan Lt. 1</div>
+            </div>
+
+            <div class="floor-plan-item">
+                <img src="photos/denah-2.jpg" alt="Denah Bangunan Lantai 2">
+                <div class="floor-plan-title">Denah Bangunan Lt. 2</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+@endsection
+<!-- 
+<footer id="main-footer">
+    <div class="container text-center">
+        <ul>
+            <li>AllRight Reserved © 2026</li>
+            <li class="social-footer">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>Design By Aritama Architect</li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html> -->
