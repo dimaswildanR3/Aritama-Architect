@@ -7,7 +7,7 @@ deployment:
     - /bin/cp -R * /home/aritamaa/laravel
 
     # Hapus isi public_html lama
-    - /bin/rm -rf /home/aritamaa/public_html/*
+    # - /bin/rm -rf /home/aritamaa/public_html/*
 
     # Copy hanya isi folder public ke public_html
     - /bin/cp -R public/* /home/aritamaa/public_html/
