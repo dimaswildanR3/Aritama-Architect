@@ -66,7 +66,7 @@
             </nav>
             <div class="show-content">
                 <h3>Kami Adalah Aritama Architect yang Kreatif & Profesional</h3>
-                <a href="project.html" class="btn btn-light">Lihat Proyek</a>
+                <a href="project" class="btn btn-light">Lihat Proyek</a>
             </div>
         </div>
     </header>
