@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section id="about-c" class="py-4">
+    <!-- <section id="about-c" class="py-4">
         <div class="container grid-plan">
             <div>
                 <img src="photos/pexels-snapwire-618613.jpg" alt="Ceo">
@@ -98,7 +98,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
 
     @endsection
     <!-- <footer id="main-footer">

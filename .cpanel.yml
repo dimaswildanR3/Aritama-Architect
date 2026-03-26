@@ -10,4 +10,4 @@ deployment:
     # - /bin/rm -rf /home/aritamaa/public_html/*
 
     # Copy hanya isi folder public ke public_html
-    - /bin/cp -R public/* /home/aritamaa/public_html/
+    # - /bin/cp -R public/* /home/aritamaa/public_html/
