@@ -43,11 +43,10 @@
                 <img src="photos/pexels-athena-2962053.jpg" alt="Tim Kami">
             </div>
             <div>
-                <h3>Tim Profesional</h3>
-                <p>Kami adalah tim arsitek dan desainer yang berpengalaman dalam perencanaan dan perancangan bangunan.</p>
+                <!-- <h3>Tentang Kami</h3> -->
+                <p>Aritama Architect adalah jasa desain arsitektur yang menghadirkan hunian nyaman dengan konsep sederhana, fungsional, dan bernilai estetika. Hunian Nyaman Bernilai Kesederhanaan dalam setiap karya menjadi prinsip kami dalam merancang setiap desain agar tidak hanya indah secara visual, tetapi juga nyaman untuk ditinggali.</p>
                 <p>
-                    Aritama Architect berkomitmen memberikan desain terbaik dengan perencanaan yang matang,
-                    detail yang presisi, serta hasil yang sesuai dengan kebutuhan dan anggaran klien.
+                Kami melayani desain rumah, renovasi, desain eksterior, serta visualisasi 3D dengan perencanaan yang matang sesuai kebutuhan klien, sehingga setiap karya memiliki karakter, kualitas, dan nilai yang terbaik.
                 </p>
             </div>
         </div>
@@ -55,13 +54,9 @@
 
     <section id="about-b" class="py-1">
         <div class="container">
-            <h2>Sejarah Kami</h2>
+            <h2>Perkenalan</h2>
             <p>
-                Aritama Architect merupakan jasa perencanaan dan desain bangunan yang berfokus pada
-                kualitas, ketelitian, dan kepuasan klien. Kami telah mengerjakan berbagai proyek mulai dari
-                rumah tinggal, interior, hingga perencanaan bangunan komersial.
-                Dengan pengalaman yang terus berkembang, kami selalu berusaha memberikan solusi desain
-                yang modern, fungsional, dan sesuai kebutuhan.
+            Aritama Architect menghadirkan kesederhanaan bukan sekadar pendekatan, melainkan prinsip utama dalam merancang ruang yang nyaman dan berkelas. Kami menerjemahkan setiap kebutuhan menjadi solusi desain yang jernih, fungsional, dan berkarakter, dengan perhatian penuh pada proporsi, detail, dan harmoni. Setiap karya merupakan refleksi dari keseimbangan antara estetika dan fungsi, menghadirkan pengalaman ruang yang tenang, relevan, dan bernilai.
             </p>
         </div>
     </section>
