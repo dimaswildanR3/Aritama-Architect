@@ -157,6 +157,43 @@
             font-size: 12px;
             font-weight: bold;
         }
+
+        #design-process {
+    padding: 60px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.process-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.process-item {
+    width: 230px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f9f9f9;
+    transition: 0.3s;
+}
+
+.process-item:hover {
+    transform: translateY(-8px);
+    background: #f4f4f4;
+}
+
+.process-item i {
+    margin-bottom: 10px;
+    color: #c59d5f;
+}
+
+.process-item h3 {
+    margin-bottom: 10px;
+}
+
+
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZL5WS2BPX"></script>
 <script>
@@ -210,161 +247,7 @@
     
         </div>
     </section>
-    <section id="paket">
-
-        <h1 class="section-title">Paket Jasa Desain</h1>
-        <p class="section-sub">
-            Pilih paket sesuai kebutuhan Anda dan hubungi kami melalui WhatsApp.
-        </p>
-    
-        <div class="paket-container">
-    
-            <!-- BASIC -->
-            <div class="paket-card">
-                <div class="paket-content">
-    
-                    <div>
-                        <h2>BASIC</h2>
-                        <h3>Rp15.000 / m²</h3>
-    
-                        <ul>
-                            <li>•⁠ ⁠Denah 2D </li>
-                            <li>•⁠ Visualisasi 3D Render ( View depan,samping kanan,samping kiri,bird view)
-                            </li>
-                            <li>•⁠ Visualisasi Denah 3D</li>
-                        </ul>
-                    </div>
-    
-                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Basic.%20Boleh%20minta%20info%20lebih%20lanjut?"
-                        target="_blank" class="btn-wa">
-                        Pesan Sekarang
-                    </a>
-    
-                </div>
-            </div>
-    
-    
-            <!-- STANDART -->
-            <div class="paket-card">
-                <div class="paket-content">
-    
-                    <div>
-                        <h2>STANDART</h2>
-                        <h3>Rp35.000 / m²</h3>
-    
-                        <ul>
-                            <li>•⁠ ⁠Denah 2D                            </li>
-                            <li>•⁠ ⁠Visualisasi 3D Render ( View depan,samping kanan,samping kiri,bird view)                            </li>
-                            <li>•⁠ ⁠Visualisasi Denah 3D </li>
-                            <li>•⁠ ⁠Gambar kerja Arsitektur</li>
-                            <li>•⁠ Gambar kerja Struktur</li>
-                            <li>•⁠ ⁠Gambar kerja MEP</li>
-                            <li>•⁠ ⁠RAB (Rencana Anggaran Biaya)
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
-                        target="_blank" class="btn-wa">
-                        Pesan Sekarang
-                    </a>
-    
-                </div>
-            </div>
-    
-    
-            <!-- PREMIUM -->
-            <div class="paket-card best">
-    
-                <span class="badge">BEST</span>
-    
-                <div class="paket-content">
-    
-                    <div>
-                        <h2>PREMIUM</h2>
-                        <h3>Rp50.000 / m²</h3>
-    
-                        <ul>
-                            <li>•⁠ ⁠Denah 2D</li>
-                            <li>•⁠ ⁠Visualisasi 3D Render ( View depan,samping kanan,samping kiri,bird view)
-                            </li>
-                            <li>•⁠ Visualisasi Denah 3D</li>
-                            <li>•⁠ 3D Visual Animasi Eksterior ( Durasi 1 menit )                            </li>
-                            <li>•⁠ ⁠Gambar kerja Arsitektur</li>
-                            <li>•⁠ ⁠Gambar kerja Struktur</li>
-                            <li>•⁠ ⁠Gambar kerja MEP</li>
-                            <li>•⁠ ⁠RAB (Rencana Anggaran Biaya)</li>
-                            <li>•⁠ ⁠Breakdown material bangunan</li>
-                        </ul>
-                    </div>
-    
-                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
-                        target="_blank" class="btn-wa">
-                        Pesan Sekarang
-                    </a>
-    
-                </div>
-            </div>
-    
-    
-            <!-- INTERIOR -->
-            <div class="paket-card">
-                <div class="paket-content">
-    
-                    <div>
-                        <h2>INTERIOR STANDART</h2>
-                        <h3>Rp40.000 / m²</h3>
-    
-                        <ul>
-                            <li>•⁠ ⁠3D Visual render Interior</li>
-                            <li>•⁠ ⁠Layout plan</li>
-                            <li>•⁠ Gambar kerja interior
-                            </li>
-                            <li>•⁠ ⁠Detailing Interior</li>
-                        </ul>
-                    </div>
-    
-                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
-                        target="_blank" class="btn-wa">
-                        Pesan Sekarang
-                    </a>
-    
-                </div>
-            </div>
-    
-    
-            <!-- INTERIOR PRO -->
-            <div class="paket-card">
-                <div class="paket-content">
-    
-                    <div>
-                        <h2>INTERIOR PREMIUM</h2>
-                        <h3>Rp55.000 / m²</h3>
-    
-                        <ul>
-                            <li>•⁠ ⁠3D Visual render Interior</li>
-                            <li>•⁠ ⁠Layout plan
-                            </li>
-                            <li>•⁠ ⁠Gambar kerja interior
-                            </li>
-                            <li>•⁠ ⁠Detailing Interior</li>
-                            <li>•⁠ ⁠RAB ( Rencana Anggaran Biaya)
-                            </li>
-                            <li>•⁠ ⁠Animasi setiap ruang terpisah ( 1 ruang 30 Sec)</li>
-                        </ul>
-                    </div>
-    
-                    <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
-                        target="_blank" class="btn-wa">
-                        Pesan Sekarang
-                    </a>
-    
-                </div>
-            </div>
-    
-        </div>
-    
-    </section>
+  
     <section id="home-b">
 
         <h1 class="text-center py-1">Kenapa Memilih Aritama Architect</h1>
@@ -403,6 +286,208 @@
         </div>
     
     </section>
+
+<section id="design-process">
+
+    <h1 class="text-center py-1">Design Process</h1>
+    <p class="text-center py-1 p-smart-phone">
+        Alur kerja kami dirancang untuk memastikan setiap desain berjalan sistematis dan menghasilkan kualitas terbaik.
+    </p>
+
+    <div class="container process-grid">
+
+        <div class="process-item">
+            <i class="fas fa-comments fa-2x"></i>
+            <h3>Consultation</h3>
+            <p>
+                Diskusi awal untuk memahami kebutuhan, konsep, dan budget agar desain sesuai dengan keinginan Anda.
+            </p>
+        </div>
+
+        <div class="process-item">
+            <i class="fas fa-lightbulb fa-2x"></i>
+            <h3>Conceptualization</h3>
+            <p>
+                Pengembangan ide desain dalam bentuk konsep awal, denah, serta visualisasi 3D dasar.
+            </p>
+        </div>
+
+        <div class="process-item">
+            <i class="fas fa-tools fa-2x"></i>
+            <h3>WIP (Work in Progress)</h3>
+            <p>
+                Tahap pengembangan desain secara detail, termasuk revisi dan penyempurnaan sesuai feedback klien.
+            </p>
+        </div>
+
+        <div class="process-item">
+            <i class="fas fa-check-circle fa-2x"></i>
+            <h3>Final Design</h3>
+            <p>
+                Finalisasi desain lengkap beserta gambar kerja yang siap digunakan untuk proses pembangunan.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="paket">
+
+<h1 class="section-title">Paket Jasa Desain</h1>
+<p class="section-sub">
+    Pilih paket sesuai kebutuhan Anda dan hubungi kami melalui WhatsApp.
+</p>
+
+<div class="paket-container">
+
+    <!-- BASIC -->
+    <div class="paket-card">
+        <div class="paket-content">
+
+            <div>
+                <h2>BASIC</h2>
+                <h3>Rp15.000 / m²</h3>
+
+                <ul>
+                    <li>•⁠ ⁠Denah 2D </li>
+                    <li>•⁠ Visualisasi 3D Render ( View depan,samping kanan,samping kiri,bird view)
+                    </li>
+                    <li>•⁠ Visualisasi Denah 3D</li>
+                </ul>
+            </div>
+
+            <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Basic.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                target="_blank" class="btn-wa">
+                Pesan Sekarang
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- STANDART -->
+    <div class="paket-card">
+        <div class="paket-content">
+
+            <div>
+                <h2>STANDART</h2>
+                <h3>Rp35.000 / m²</h3>
+
+                <ul>
+                    <li>•⁠ ⁠Denah 2D                            </li>
+                    <li>•⁠ ⁠Visualisasi 3D Render ( View depan,samping kanan,samping kiri,bird view)                            </li>
+                    <li>•⁠ ⁠Visualisasi Denah 3D </li>
+                    <li>•⁠ ⁠Gambar kerja Arsitektur</li>
+                    <li>•⁠ Gambar kerja Struktur</li>
+                    <li>•⁠ ⁠Gambar kerja MEP</li>
+                    <li>•⁠ ⁠RAB (Rencana Anggaran Biaya)
+                    </li>
+                </ul>
+            </div>
+
+            <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                target="_blank" class="btn-wa">
+                Pesan Sekarang
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- PREMIUM -->
+    <div class="paket-card best">
+
+        <span class="badge">BEST</span>
+
+        <div class="paket-content">
+
+            <div>
+                <h2>PREMIUM</h2>
+                <h3>Rp50.000 / m²</h3>
+
+                <ul>
+                    <li>•⁠ ⁠Denah 2D</li>
+                    <li>•⁠ ⁠Visualisasi 3D Render ( View depan,samping kanan,samping kiri,bird view)
+                    </li>
+                    <li>•⁠ Visualisasi Denah 3D</li>
+                    <li>•⁠ 3D Visual Animasi Eksterior ( Durasi 1 menit )                            </li>
+                    <li>•⁠ ⁠Gambar kerja Arsitektur</li>
+                    <li>•⁠ ⁠Gambar kerja Struktur</li>
+                    <li>•⁠ ⁠Gambar kerja MEP</li>
+                    <li>•⁠ ⁠RAB (Rencana Anggaran Biaya)</li>
+                    <li>•⁠ ⁠Breakdown material bangunan</li>
+                </ul>
+            </div>
+
+            <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                target="_blank" class="btn-wa">
+                Pesan Sekarang
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- INTERIOR -->
+    <div class="paket-card">
+        <div class="paket-content">
+
+            <div>
+                <h2>INTERIOR STANDART</h2>
+                <h3>Rp40.000 / m²</h3>
+
+                <ul>
+                    <li>•⁠ ⁠3D Visual render Interior</li>
+                    <li>•⁠ ⁠Layout plan</li>
+                    <li>•⁠ Gambar kerja interior
+                    </li>
+                    <li>•⁠ ⁠Detailing Interior</li>
+                </ul>
+            </div>
+
+            <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Standart.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                target="_blank" class="btn-wa">
+                Pesan Sekarang
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- INTERIOR PRO -->
+    <div class="paket-card">
+        <div class="paket-content">
+
+            <div>
+                <h2>INTERIOR PREMIUM</h2>
+                <h3>Rp55.000 / m²</h3>
+
+                <ul>
+                    <li>•⁠ ⁠3D Visual render Interior</li>
+                    <li>•⁠ ⁠Layout plan
+                    </li>
+                    <li>•⁠ ⁠Gambar kerja interior
+                    </li>
+                    <li>•⁠ ⁠Detailing Interior</li>
+                    <li>•⁠ ⁠RAB ( Rencana Anggaran Biaya)
+                    </li>
+                    <li>•⁠ ⁠Animasi setiap ruang terpisah ( 1 ruang 30 Sec)</li>
+                </ul>
+            </div>
+
+            <a href="https://wa.me/6285113282769?text=Halo%20Aritama%20Architect,%20saya%20tertarik%20dengan%20Paket%20Interior%20Premium.%20Boleh%20minta%20info%20lebih%20lanjut?"
+                target="_blank" class="btn-wa">
+                Pesan Sekarang
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
     <section id="home-c" class="text-center py-3">
 
         <h1>Keunggulan Aritama Architect</h1>
