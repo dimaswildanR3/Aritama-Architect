@@ -3,40 +3,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO -->
-    <title>{{ $seo->title ?? 'Aritama Architect' }}</title>
+    <title>{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}</title>
 
     <meta name="description" content="{{ $seo->description ?? 'Aritama Architect adalah jasa desain rumah, arsitek, interior, dan gambar kerja profesional dengan harga terjangkau. Melayani desain rumah minimalis, modern, dan tropis di seluruh Indonesia.' }}">
 
-    <meta name="keywords" content="
-    jasa arsitek murah,
-    jasa desain rumah murah,
-    arsitek rumah minimalis,
-    desain rumah modern,
-    jasa desain arsitektur indonesia,
-    arsitek profesional,
-    jasa gambar kerja,
-    desain rumah 3d,
-    arsitek nganjuk,
-    arsitek jawa timur,
-    arsitek indonesia
-    ">
+    <meta name="keywords" content="jasa arsitek murah, jasa desain rumah murah, arsitek rumah minimalis, desain rumah modern, jasa desain arsitektur indonesia, arsitek profesional, jasa gambar kerja, desain rumah 3d, arsitek nganjuk, arsitek jawa timur, arsitek indonesia">
 
     <meta name="author" content="Aritama Architect">
-
-    <!-- SEO Google -->
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph (SEO sosmed) -->
-   <meta property="og:title" content="{{ $seo->title ?? 'Aritama Architect' }}">
-   <meta property="og:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ url()->current() }}" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
+    <meta property="og:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
     <meta property="og:url" content="{{ url()->current() }}">
-    <link rel="canonical" href="{{ url()->current() }}" />
-    <!-- Favicon / logo icon -->
-    <link rel="icon" href="{{ url('photos/icon1.png') }}" type="image/png">
-    <link rel="apple-touch-icon" href="{{ url('photos/icon1.png') }}">
-    <link rel="shortcut icon" href="{{ url('photos/icon1.png') }}">
+    <meta property="og:site_name" content="Aritama Architect">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
+    <meta name="twitter:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
+    <meta name="twitter:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ asset('photos/icon1.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('photos/icon1.png') }}">
+    <link rel="shortcut icon" href="{{ asset('photos/icon1.png') }}">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/707ca0a07c.js" crossorigin="anonymous"></script>
@@ -45,22 +41,22 @@
     <link rel="stylesheet" href="{{ asset('style/style.css') }}">
     <link rel="stylesheet" href="{{ asset('style/mobile.css') }}">
 
-    <!-- Structured Data JSON-LD untuk Google -->
-    <script type="application/ld+json">      
+    <!-- Structured Data -->
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Aritama Architect",
-      "url": "https://www.aritamaarchitect.com",
-      "logo": "https://www.aritamaarchitect.com/photos/icon1.png"
+      "url": "https://www.aritamaarchitect.com/",
+      "logo": "https://www.aritamaarchitect.com/photos/icon1.png",
+      "image": "https://www.aritamaarchitect.com/photos/icon1.png",
+      "sameAs": [
+        "https://www.instagram.com/aritamaarchitect/",
+        "https://www.tiktok.com/@aritamaarchitect",
+        "https://www.facebook.com/profile.php?id=61579557254672"
+      ]
     }
     </script>
-
-    <!-- Opsional: Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ $seo->title ?? 'Aritama Architect' }}">
-<meta name="twitter:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
-    <meta name="twitter:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
 </head>
 
 <body>

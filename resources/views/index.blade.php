@@ -20,7 +20,7 @@
     <!-- Open Graph -->
     <meta property="og:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
     <meta property="og:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
-    <meta property="og:image" content="https://aritamaarchitect.com/photos/icon1.png">
+    <meta property="og:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Aritama Architect">
@@ -29,7 +29,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
     <meta name="twitter:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
-    <meta name="twitter:image" content="https://aritamaarchitect.com/photos/icon1.png">
+    <meta name="twitter:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('photos/icon1.png') }}" type="image/png">
@@ -49,8 +49,14 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Aritama Architect",
-      "url": "https://aritamaarchitect.com",
-      "logo": "https://aritamaarchitect.com/photos/icon1.png"
+      "url": "https://www.aritamaarchitect.com/",
+      "logo": "https://www.aritamaarchitect.com/photos/icon1.png",
+      "image": "https://www.aritamaarchitect.com/photos/icon1.png",
+      "sameAs": [
+        "https://www.instagram.com/aritamaarchitect/",
+        "https://www.tiktok.com/@aritamaarchitect",
+        "https://www.facebook.com/profile.php?id=61579557254672"
+      ]
     }
     </script>
 </head>
