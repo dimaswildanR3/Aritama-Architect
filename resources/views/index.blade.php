@@ -541,10 +541,10 @@
                     </li>
         
                     <li class="social-footer">
-                        <a href="#"> <i class="fab fa-instagram" style="color: white;"></i></a>
+                        <a href="https://www.instagram.com/aritamaarchitect/"> <i class="fab fa-instagram" style="color: white;"></i></a>
                         <a href="https://www.tiktok.com/@aritamaarchitect?_r=1&_t=ZS-94nYwcWd7E0"><i class="fab fa-tiktok" style="color: white;"></i></a>
-                        <a href="#"><i class="fab fa-facebook" style="color: white;"></i></a>
-                        <a href="#"><i class="fab fa-youtube" style="color: white;"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61579557254672"><i class="fab fa-facebook" style="color: white;"></i></a>
+                        <a href="https://wa.me/6285113282769"><i class="fab fa-whatsapp" style="color: white;"></i></a>
                     </li>
         
                     <li>

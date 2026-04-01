@@ -90,10 +90,10 @@
                     AllRight Reseved &copy; 2026
                 </li>
                 <li class="social-footer">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/aritamaarchitect/"> <i class="fab fa-instagram" style="color: white;"></i></a>
+                        <a href="https://www.tiktok.com/@aritamaarchitect?_r=1&_t=ZS-94nYwcWd7E0"><i class="fab fa-tiktok" style="color: white;"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61579557254672"><i class="fab fa-facebook" style="color: white;"></i></a>
+                        <a href="https://wa.me/6285113282769"><i class="fab fa-whatsapp" style="color: white;"></i></a>
                 </li>
                 <li>
                     Design By Aritama Architect
