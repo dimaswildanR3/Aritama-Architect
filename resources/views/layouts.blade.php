@@ -3,9 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO -->
-    <title>Jasa Desain Rumah Murah & Profesional | Aritama Architect</title>
+    <title>{{ $seo->title ?? 'Aritama Architect' }}</title>
 
-    <meta name="description" content="Aritama Architect adalah jasa desain rumah, arsitek, interior, dan gambar kerja profesional dengan harga terjangkau. Melayani desain rumah minimalis, modern, dan tropis di seluruh Indonesia.">
+    <meta name="description" content="{{ $seo->description ?? 'Aritama Architect adalah jasa desain rumah, arsitek, interior, dan gambar kerja profesional dengan harga terjangkau. Melayani desain rumah minimalis, modern, dan tropis di seluruh Indonesia.' }}">
 
     <meta name="keywords" content="
     jasa arsitek murah,
@@ -27,16 +27,16 @@
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph (SEO sosmed) -->
-    <meta property="og:title" content="Aritama Architect | Jasa Desain Rumah Profesional">
-    <meta property="og:description" content="Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.">
+   <meta property="og:title" content="{{ $seo->title ?? 'Aritama Architect' }}">
+   <meta property="og:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://aritamaarchitect.com/photos/icon1.png">
-    <meta property="og:url" content="https://aritamaarchitect.com/">
-
+    <meta property="og:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <link rel="canonical" href="{{ url()->current() }}" />
     <!-- Favicon / logo icon -->
-    <link rel="icon" href="{{ asset('photos/icon1.png') }}" type="image/png">
-    <link rel="apple-touch-icon" href="{{ asset('photos/icon1.png') }}">
-    <link rel="shortcut icon" href="{{ asset('photos/icon1.png') }}">
+    <link rel="icon" href="{{ url('photos/icon1.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ url('photos/icon1.png') }}">
+    <link rel="shortcut icon" href="{{ url('photos/icon1.png') }}">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/707ca0a07c.js" crossorigin="anonymous"></script>
@@ -51,16 +51,16 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Aritama Architect",
-      "url": "https://aritamaarchitect.com",
-      "logo": "https://aritamaarchitect.com/photos/icon1.png"
+      "url": "https://www.aritamaarchitect.com",
+      "logo": "https://www.aritamaarchitect.com/photos/icon1.png"
     }
     </script>
 
     <!-- Opsional: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aritama Architect | Jasa Desain Rumah Profesional">
-    <meta name="twitter:description" content="Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.">
-    <meta name="twitter:image" content="https://aritamaarchitect.com/photos/icon1.png">
+    <meta name="twitter:title" content="{{ $seo->title ?? 'Aritama Architect' }}">
+<meta name="twitter:description" content="{{ $seo->description ?? 'Jasa desain rumah murah, arsitek profesional, gambar kerja, interior, dan RAB.' }}">
+    <meta name="twitter:image" content="https://www.aritamaarchitect.com/photos/icon1.png">
 </head>
 
 <body>

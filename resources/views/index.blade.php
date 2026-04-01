@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Dinamis -->
-    <title>{{ $seo->title ?? 'Aritama Architect' }}</title>
+    <title>{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}</title>
 
     <meta name="description" content="{{ $seo->description ?? 'Aritama Architect adalah jasa desain rumah, arsitek, interior, dan gambar kerja profesional dengan harga terjangkau. Melayani desain rumah minimalis, modern, dan tropis di seluruh Indonesia.' }}">
 
     <meta name="keywords" content="{{ $seo->keywords ?? 'jasa arsitek murah, jasa desain rumah murah, arsitek rumah minimalis, desain rumah modern, jasa desain arsitektur indonesia, arsitek profesional, jasa gambar kerja, desain rumah 3d, arsitek nganjuk, arsitek jawa timur, arsitek indonesia' }}">
-    
+
     <meta name="author" content="Aritama Architect">
     <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ url()->current() }}" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{ $seo->title ?? 'Aritama Architect | Jasa Desain Rumah Profesional' }}">
@@ -20,6 +23,7 @@
     <meta property="og:image" content="https://aritamaarchitect.com/photos/icon1.png">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aritama Architect">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -28,9 +32,9 @@
     <meta name="twitter:image" content="https://aritamaarchitect.com/photos/icon1.png">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://aritamaarchitect.com/photos/icon1.png" type="image/png">
-    <link rel="apple-touch-icon" href="https://aritamaarchitect.com/photos/icon1.png">
-    <link rel="shortcut icon" href="https://aritamaarchitect.com/photos/icon1.png">
+    <link rel="icon" href="{{ asset('photos/icon1.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('photos/icon1.png') }}">
+    <link rel="shortcut icon" href="{{ asset('photos/icon1.png') }}">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/707ca0a07c.js" crossorigin="anonymous"></script>
